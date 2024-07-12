@@ -57,7 +57,7 @@ Este script oferece uma coleção de 30 ferramentas éticas para análise, monit
 
    ```bash
     git clone https://github.com/sentinelzxOFICIAL/WI-FI-TERMUX
-   cd wifi-termux
+   cd WI-FI-TERMUX
 
 3. instalar requirements
 
