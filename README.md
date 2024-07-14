@@ -1,80 +1,77 @@
-![Imagem de Fundo](https://iili.io/dqUbHn1.png)
+![Background Image](https://iili.io/dqUbHn1.png)
 
-# Script de Penetração em Rede Wi-Fi
+# Wi-Fi Network Penetration Script
 
-Este é um script Python que oferece uma coleção de ferramentas éticas para análise, monitoramento e segurança de redes Wi-Fi. As ferramentas são projetadas para operar em sistemas Linux e Windows e termux sem a necessidade de permissões de root, proporcionando uma abordagem segura e ética para testes de penetração.
+This is a Python script that offers a collection of ethical tools for Wi-Fi network analysis, monitoring, and security. The tools are designed to operate on Linux and Windows systems and Termux without the need for root permissions, providing a safe and ethical approach to penetration testing.
 
-## Funcionalidades
+## Features
 
-Este script oferece uma coleção de 30 ferramentas éticas para análise, monitoramento e segurança de redes Wi-Fi:
+This script offers a collection of 30 ethical tools for Wi-Fi network analysis, monitoring, and security:
 
-1. **Scan de Redes Wi-Fi (nmcli)**
-2. **Scan de Redes Wi-Fi (netsh)**
-3. **Scan de Redes Wi-Fi (iwlist)**
-4. **Configurar Wi-Fi (iwconfig)**
-5. **Scan de Rede (arp-scan)**
-6. **Scan de Rede (nmap)**
-7. **Teste de Conectividade (ping)**
-8. **Rastrear Rota (traceroute/tracert)**
-9. **Consulta DNS (dig)**
-10. **Consulta DNS (host)**
-11. **Scan de Redes Wi-Fi (iw)**
-12. **Modo de Monitoramento (airmon-ng)**
-13. **Captura de Pacotes (airodump-ng)**
-14. **Quebra de Senhas (aircrack-ng)**
-15. **Teste de Vulnerabilidade WPS (reaver)**
-16. **Testes de Redes (mdk3)**
-17. **Escaneamento WPS (wash)**
-18. **Captura de Handshakes (hcxdumptool)**
-19. **Conversão de Arquivos Capturados (hcxpcapngtool)**
-20. **Alteração de Endereço MAC (macchanger)**
-21. **Captura de Pacotes (tcpdump)**
-22. **Análise de Pacotes (wireshark)**
-23. **Análise de Pacotes (tshark)**
-24. **Ataques MITM (ettercap)**
-25. **Coleta de Informações (dmitry)**
-26. **Identificação de Tecnologias Web (whatweb)**
-27. **Escaneamento de Portas (masscan)**
-28. **Consulta WHOIS (whois)**
-29. **Utilização do Netcat (netcat)**
-30. **Requisições Web (curl)**
+1. **Wi-Fi Network Scan (nmcli)**
+2. **Wi-Fi Network Scan (netsh)**
+3. **Wi-Fi Network Scan (iwlist)**
+4. **Configure Wi-Fi (iwconfig)**
+5. **Network Scan (arp-scan)**
+6. **Network Scan (nmap)**
+7. **Connectivity Test (ping)**
+8. **Route Tracing (traceroute/tracert)**
+9. **DNS Query (dig)**
+10. **DNS Query (host)**
+11. **Wi-Fi Network Scan (iw)**
+12. **Monitoring Mode (airmon-ng)**
+13. **Packet Capture (airodump-ng)**
+14. **Password Cracking (aircrack-ng)**
+15. **WPS Vulnerability Testing (reaver)**
+16. **Network Testing (mdk3)**
+17. **WPS Scanning (wash)**
+18. **Handshake Capture (hcxdumptool)**
+19. **Captured File Conversion (hcxpcapngtool)**
+20. **MAC Address Change (macchanger)**
+21. **Packet Capture (tcpdump)**
+22. **Packet Analysis (wireshark)**
+23. **Packet Analysis (tshark)**
+24. **MITM Attacks (ettercap)**
+25. **Information Gathering (dmitry)**
+26. **Web Technology Identification (whatweb)**
+27. **Port Scanning (masscan)**
+28. **WHOIS Query (whois)**
+29. **Netcat Usage (netcat)**
+30. **Web Requests (curl)**
 
-## Requisitos
+## Requirements
 
 - Python 3.x
-- Bibliotecas Python listadas no arquivo `requirements.txt`
+- Python libraries listed in the `requirements.txt` file
 
-## Instalação
+## Installation
 
-1. requisição:
+1. Update and install Python:
 
    ```bash
    pkg update
    pkg upgrade
    pkg install python
 
-2. clone repositório:
+2. Clone the repository:
 
    ```bash
     git clone https://github.com/sentinelzxOFICIAL/WI-FI-TERMUX
    cd WI-FI-TERMUX
 
-3. instalar requirements
+3. install requirements
 
    ```bash
     pip install -r requirements.txt
 
-4. inicia script 
+4. Run the script: 
    
     ```bash
     python main.py
 
 ## erros 
 
-pode tem alguns  erros Manuel em algumas ferramentas esta na ```versão 1.0``` a nova versão está sendo feita 2.0 é todas erros está conectado e melhoras Adicionado 
+There may be some manual errors in certain tools as this is version ```1.0``` The new version 2.0 is being developed and all errors will be fixed and improvements added.
 
-## donate ajuda nos continuar ferramentas free
-
-`4abc7bc8-bb82-49ff-8bc3-9347d12d2cba`
 
 [Developed](https://sentinelzxoficial.github.io/sentinelzxofc/)
